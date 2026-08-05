@@ -1,0 +1,197 @@
+/* =========================
+   WELLNESS PAGE
+========================= */
+
+
+.wellness-hero{
+
+    background:#dcf4e9;
+
+    margin:50px 10%;
+
+    padding:90px 40px;
+
+    border-radius:50px;
+
+    text-align:center;
+
+}
+
+
+.wellness-hero h1{
+
+    font-size:65px;
+
+    color:#214b49;
+
+    margin-bottom:20px;
+
+}
+
+
+.wellness-hero p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    font-size:22px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+/* WELLNESS CARDS */
+
+
+.wellness-grid{
+
+    padding:70px 10%;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.wellness-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+    transition:.2s;
+
+}
+
+
+
+.wellness-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+
+
+.wellness-card div{
+
+    font-size:55px;
+
+}
+
+
+
+.wellness-card h2{
+
+    text-align:left;
+
+    font-size:28px;
+
+    color:#214b49;
+
+    margin:20px 0;
+
+}
+
+
+
+.wellness-card p{
+
+    line-height:1.7;
+
+}
+
+
+
+.wellness-card a{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#63c7aa;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+
+/* WELLNESS MESSAGE */
+
+
+.wellness-tip{
+
+    margin:60px 10%;
+
+    background:#fff0df;
+
+    padding:60px;
+
+    border-radius:50px;
+
+    text-align:center;
+
+}
+
+
+
+.wellness-tip h2{
+
+    color:#214b49;
+
+}
+
+
+
+.wellness-tip p{
+
+    font-size:22px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+
+@media(max-width:900px){
+
+
+.wellness-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.wellness-hero h1{
+
+    font-size:45px;
+
+}
+
+
+}
